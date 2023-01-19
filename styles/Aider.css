@@ -379,6 +379,7 @@ body {
 .card-swiper-buttons {
   margin-top: 0px;
   display: flex;
+  gap: 50px;
   justify-content: space-around;  
   padding: 0vmin 4vmin;
 }
