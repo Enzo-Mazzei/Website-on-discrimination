@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>C'est quoi?</title>
+  <link rel="stylesheet" href="../styles/Cest-quoi.css">
+     <script src="../Cest-quoi.js"></script>
+  </head>
+  <body>
+    <nav class="navbar" id="myNav">
+      <div class = "logoContainer">
+        <a href="../index.html"target="_blank">
+              <img class = "home-logo" src = "../images/home-logo.png">
+            </a>
+      </div>
+        <ul class="nav-links">
+          <li id="CestQuoi"><a class="underline"href="../Pages/Cest-quoi.html">C'est quoi?</a></li>
+          <li id="Chiffres"><a class="underline"href="../Pages/Chiffres.html"target="_blank">Chiffres</a></li>
+          <li id="Actualités"><a class="underline"href="../Pages/Actualités.html"target="_blank">Actualités</a></li>
+          <li id="Aider"><a class="underline" href="../Pages/Aider.html"target="_blank">Aider</a></li>
+          <ul>
+            <a class="menu-icon" onclick="zoomMenu(this); showMenu()">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </a>
+    </nav>
+      <div class="description">
+        <div class="left-description">
+          <a id="QDiscriminationL" ></a>
+          <div class="quote">
+            <p class="quote-title">Qu'est ce que la discrimination? (légalement)</p>
+            <p id="quote">En droit, une discrimination est un traitement défavorable qui doit 
+              généralement remplir deux conditions cumulatives : être fondé sur un critère défini 
+              par la loi (sexe, âge, handicap…) ET relever d'une situation visée par la loi (accès 
+              à un emploi, un service, un logement…).</p>
+              <a id="Criteres" ></a>
+           <p id="quote2">Site du défenseur des droits.</p>
+          </div>
+          <div class="full-slider">
+            <p id="slider-title">Les différents critères de discrimination</p>
+            <div id="slider">
+                <img src="../images/autonomie.png" alt="autonomie" id="slide">
+                <div id="suivant" onclick="ChangeSlide(1)">></div> 
+                <div id="precedent" onclick="ChangeSlide(-1)"><</div>
+            </div>
+            <a id="SurQuoi" ></a>
+            <p id="slide-description">L'autonomie</p>
+          </div>
+        <p class= "titles">Sur quoi porte la discrimination ?</p>
+        <img class ="presentation-pics" src="../images/failed-job.jpg" alt="emploiRefusé-pic">
+        <p class="description-text">La discrimination peut porter sur de différents domaines comme:<ul>
+          <li>-L'éducation: Refuser l'entrée à une institution à une personne</li>
+          <li>-Accès aux services: Refuser l'entrée en boite de nuit, à un restaurant etc...</li>
+          <li>-Accès au logement: Refuser de louer ou vendre un logement</li>
+          <li>-Recrutement: Refuser de donner un emploi</li>
+          <a id="RDisc" ></a>
+        </ul>et bien d'autres.</p>
+        <p class= "titles">Reconnaître la discrimination</p>
+        <p class= "small-titles">La discrimination directe</p>
+        <img class ="presentation-pics"src="../images/noblack.jpg" alt="noBlackPeople">
+        <p class="description-text">La discrimination est directe lorsqu'elle est nettement visible, 
+          voire affichéeou revendiquée. Par exemple, si une annonce d'emploi refuse les femmes 
+          avec enfants.</p>
+          <p class= "small-titles">La discrimination indirecte</p>
+          <img class ="presentation-pics"src="../images/white-only.jpg" alt="white-only">
+        <p class="description-text">La discrimination peut être indirecte lorsque des mesures 
+          apparemment neutres défavorisent, de fait, de façon importante, une catégorie 
+          de personnes. Par exemple, si une banque n'accepte que la carte d'identité 
+          française comme justificatif d'identité, ce qui discrimine les étrangers.
+        </p>
+      </div>
+      <div class="right-description">
+        <ol id="index">Index
+          <li id="QDiscriminationL">
+            <a class="underline2"href="#QDiscriminationL">Qu'est-ce que la discrimination 
+              (légalement)?</a>
+          </li>
+          <li id="Criteres">
+            <a class="underline2"href="#Criteres">Les différents critères de discrimination</a>
+          <li id="SurQuoi">
+            <a class="underline2" href="#SurQuoi">Sur quoi porte la discrimination</a>
+          <li id="RDisc">
+            <a class="underline2" href="#RDisc">Reconnaître la discrimination</a>
+        </ol>
+      </div>
+  </div>
+  <div class="footer">
+    <p>Copyright Korya 2023</p>
+    </body>
